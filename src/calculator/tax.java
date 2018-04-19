@@ -24,7 +24,7 @@ public class tax {
 		return tax;
 	 }
 //метод deduction расчитывает вычеты в зависимости от колличества детей и состава семьи 
-	private double deduction(double child, boolean fam) {
+	public double deduction(double child, boolean fam) {
 		double ded=0;
 		if(child>0)
 		{
