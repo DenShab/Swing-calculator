@@ -3,3 +3,4 @@ jdk: oraclejdk9
 branches:
  only:
  - master
+ script: ant build
